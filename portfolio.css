@@ -1,0 +1,253 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 3em;
+}
+
+p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #333;    
+    padding: 15px;             
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    border-radius: 10px;
+    color : white       
+}
+
+nav a {
+    color: white;              
+    text-decoration: none;     
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+ }
+
+nav a:hover {
+    color : #3498db;
+    text-decoration: underline; 
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
+}
+
+.photo_cv {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;      
+    object-fit: cover;       
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero h1 {
+    margin: 15px 0 5px 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.hero h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.3em;
+    color: #2c3e50;
+    font-weight: normal;
+}
+
+.content {
+    padding: 2rem;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.contacts {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 2rem;
+    /*Bord arrondi*/
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+
+    height: 100%; 
+}
+
+.contacts h2 {
+    grid-column: 1 / -1; 
+    margin-top: 0;
+    font-size: 2rem;
+    border-bottom: 3px solid #0e0f0f;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.contacts h3 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contacts a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+    transform: translateY(-2px);
+}
+
+/* Contact rows: label/value alignment ------------------------------------- */
+.contacts .contact-row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 0.5rem 1rem;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.contacts .contact-label {
+    text-align: right;
+    font-weight: 600;
+    color: #2c3e50;
+    padding-right: 0.5rem;
+}
+
+.contacts .contact-value {
+    color: #333;
+}
+
+.contacts .contact-value a {
+    color: #667eea;
+    text-decoration: none;
+    padding: 0;
+}
+
+.contacts .contact-value a:hover {
+    text-decoration: underline;
+}
+
+.cv-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cv-download {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #667eea;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.download-btn:hover {
+    background-color: #5a67d8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.cv-item {
+    display: grid;
+    grid-template-columns: 1fr minmax(120px, auto);
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.cv-item:last-child {
+    border-bottom: none;
+}
+
+.cv-content {
+    text-align: left;
+}
+
+.cv-date {
+    justify-self: end;
+    text-align: right;
+    font-weight: 700;
+    color: #2c3e50;
+    white-space: nowrap;
+}
+
+.cv-item .cv-content h4 {
+    margin: 0 0 0.2rem 0;
+}
+
+.cv-item .cv-content h5 {
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+.cv-item .cv-content p {
+    margin: 0.3rem 0 0 0;
+}
+
+.voir-plus {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    border: 1px solid #667eea;
+    transition: all 0.3s ease;
+}
+
+.voir-plus:hover {
+    background-color: #667eea;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.cv-item h2 {
+    text-align: left;
+    text-decoration : underline;
+}
