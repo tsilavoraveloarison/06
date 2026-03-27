@@ -22,23 +22,23 @@ function showPage(pageName) {
                 <div class="col-md-5">
                     <div class="contacts">
                         <h2>Mes coordonnées</h2>
-                        <div class="contact-row">
+                        <div class="contact-row d-flex flex-column flex-sm-row justify-content-between align-items-start">
                             <div class="contact-label">Email :</div>
                             <div class="contact-value"><a href="mailto:tsilavo.raveloarison@gmail.com">tsilavo.raveloarison@gmail.com</a></div>
                         </div>
-                        <div class="contact-row">
+                        <div class="contact-row d-flex flex-column flex-sm-row justify-content-between align-items-start">
                             <div class="contact-label">Téléphone :</div>
                             <div class="contact-value"><a href="tel:+33784724266">+33 7 84 72 42 66</a></div>
                         </div>
-                        <div class="contact-row">
+                        <div class="contact-row d-flex flex-column flex-sm-row justify-content-between align-items-start">
                             <div class="contact-label">Adresse :</div>
                             <div class="contact-value">Loos, 59120</div>
                         </div>
-                        <div class="contact-row">
+                        <div class="contact-row d-flex flex-column flex-sm-row justify-content-between align-items-start">
                             <div class="contact-label">LinkedIn :</div>
                             <div class="contact-value"><a class="contact-link" href="https://www.linkedin.com/in/tsilavo-raveloarison" target="_blank">www.linkedin.com/in/tsilavo-raveloarison</a></div>
                         </div>
-                        <div class="contact-row">
+                        <div class="contact-row d-flex flex-column flex-sm-row justify-content-between align-items-start">
                             <div class="contact-label">GitHub :</div>
                             <div class="contact-value"><a href="https://tsilavoraveloarison.github.io/06/" target="_blank">https://tsilavoraveloarison.github.io/06/</a></div>
                         </div>
