@@ -258,7 +258,7 @@ function showPage(pageName) {
                     <p><strong>Compétences :</strong> Programmation orientée objet (classes Monstre, Pic, Piece, Nuage), gestion des collisions, animation en temps réel, génération procédurale d'obstacles.</p>
     
                     <div class="runner-screenshot mb-3" style="max-width: 100%; border: 1px solid #ddd; padding: 10px; background: #fafafa;">
-                        <img src="Jeu_runner.png" alt="Capture du jeu runner" style="width: 100%; height: auto;" />
+                        <img src="jeu_runner.png" alt="Capture du jeu runner" style="width: 100%; height: auto;" />
                     </div>
                 </div>
 
