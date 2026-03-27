@@ -180,7 +180,7 @@ function showPage(pageName) {
 
                 <div class="cv-item">
                     <div class="cv-content">
-                        <h4>Création d’un jeu de type runne</h4>
+                        <h4>Création d’un jeu de type runner</h4>
                         <h5>Javascript</h5>
                         <p><a href="#" onclick="showPage('projets')" class="voir-plus">Voir plus</a></p>
                     </div>
