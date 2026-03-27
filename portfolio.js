@@ -40,7 +40,7 @@ function showPage(pageName) {
                         </div>
                         <div class="contact-row">
                             <div class="contact-label">GitHub :</div>
-                            <div class="contact-value">&nbsp;</div>
+                            <div class="contact-value"><a href="https://tsilavoraveloarison.github.io/06/" target="_blank">https://tsilavoraveloarison.github.io/06/</a></div>
                         </div>
                     </div>
                 </div>
