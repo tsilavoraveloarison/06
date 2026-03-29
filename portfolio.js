@@ -153,6 +153,14 @@ function showPage(pageName) {
 
                 <div class="cv-item">
                     <div class="cv-content">
+                        <h4>Prédiction de la valeur des joueurs FIFA</h4>
+                        <h5>Python, Scikit-learn, Pandas, Streamlit</h5>
+                    </div>
+                    <div class="cv-date">En cours</div>
+                </div>
+
+                <div class="cv-item">
+                    <div class="cv-content">
                         <h4>Projet Data – Tableau de bord interactif</h4>
                         <h5>HTML/CSS, JavaScript, Plotly</h5>
                         <p><a href="#" onclick="showPage('projets')" class="voir-plus">Voir plus</a></p>
